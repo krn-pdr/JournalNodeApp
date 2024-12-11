@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "sever.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "start": "nodemon ./server.js"
+    "start": "node ./server.js"
   },
   "keywords": [],
   "author": "",
