@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "sever.js",
-  "engines": {
-    "node": "21.x"
-  },
   "scripts": {
     "start": "node ./server.js",
-    "build": "npm install"
+    "build": "npm install --legacy-peer-deps"
   },
   "keywords": [],
   "author": "",
