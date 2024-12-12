@@ -15,7 +15,7 @@ connectDB();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("API is running...");
 });
 
 const PORT = process.env.PORT || 5000;
@@ -26,6 +26,7 @@ app.listen(PORT, () => {
 
 app.use(express.json());
 app.use("/api", routes);
+
 app.use((req, res, next) => {
   const error = new Error(`Not Found - ${req.originalUrl}`);
   res.status(404);

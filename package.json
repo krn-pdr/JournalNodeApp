@@ -4,10 +4,11 @@
   "description": "",
   "main": "sever.js",
   "engines": {
-    "node": "22.x"
+    "node": "21.x"
   },
   "scripts": {
-    "start": "node ./server.js"
+    "start": "node ./server.js",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
